@@ -1,0 +1,213 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Noto+Sans:wght@200&family=Poppins:wght@300&display=swap');  */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: rgb(238, 237, 237);
+}
+
+header {
+  border-bottom: 2px solid rgb(238, 237, 237);
+  background-color: white;
+  padding: 15px;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.links {
+  margin-left: auto;
+  margin-right: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+.links a{
+  margin: auto 5px;
+  color:black;
+}
+
+.links a:hover{
+  text-decoration: underline;
+  color: darkblue;
+}
+
+.links span{
+  margin-right: 10px;
+  color: darkgrey;
+}
+
+.links .logout {
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 8px 10px;
+  background-color: white;
+  color:red ;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+header h2 {
+  color: black;
+  margin: 0 2rem;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.pages {
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
+.main-container {
+  display: flex;
+}
+
+/* workdetails */
+.work-container {
+  background-color: rgb(255, 255, 255);
+  margin: 1rem 5rem;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+.work-container h4 {
+  color: rgb(0, 195, 0);
+  font-size: 24px;
+  margin: 12px 0;
+  display: flex;
+}
+
+.work-container p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.Details {
+  width: 80%;
+  margin: 15px 0;
+}
+
+h4 span {
+  border-radius: 45%;
+  padding: 5px;
+  background-color: rgb(247, 247, 247);
+  cursor: pointer;
+  margin-left: auto;
+  font-size: 15px;
+  color: black;
+}
+
+/* Form  */
+.workForm {
+  width: 36%;
+  margin: 0 auto;
+}
+
+.workForm form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding: 2rem;
+}
+
+.workForm input {
+  width: 18rem;
+  height: 2rem;
+  padding: 0 10px;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.workForm button {
+  margin: auto;
+  padding: 11px 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 195, 0);
+  border: 1px solid rgb(0, 201, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.workForm label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.formError {
+  border: 1px solid rgb(255, 100, 100);
+  border-radius: 5px;
+  background-color: rgb(249, 183, 183);
+  width: 45%;
+  margin: auto;
+  padding: 10px;
+}
+
+.formPost .error {
+  border: 1px solid rgb(255, 100, 100);
+  border-radius: 5px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/*login and signup */
+
+.auth {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding: 2rem;
+  background-color:white ;
+
+}
+.auth h4{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0;
+
+}
+.auth label {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.auth input {
+  width: 18rem;
+  height: 2rem;
+  padding: 0 10px;
+  text-decoration: none;
+ 
+  border:1px solid black;
+}
+
+.auth button {
+  margin:auto;
+  margin-top: 22px ;
+  margin-bottom: 10px ;
+  padding: 11px 25px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 195, 0);
+  border: 1px solid rgb(0, 201, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth .error {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(255, 100, 100);
+  border-radius: 5px;
+  color:rgb(255, 65, 65) ;
+  font-weight: bold;
+}
